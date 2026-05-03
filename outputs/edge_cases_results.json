@@ -1,0 +1,92 @@
+[
+    {
+        "id": 991,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 150.0,
+                "Egim": 20.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 38.0,
+                "Ruzgar_Hizi": 6.0
+            },
+            "Yakitlar": {
+                "NDVI": 0.05,
+                "NDWI": -0.3
+            }
+        },
+        "RAG_Parcalari": [
+            "M02",
+            "M03",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.495,
+            0.484,
+            0.472
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 150.0 metre rakimda ve %20.0 gibi orta seviye egimde yer almaktadir. 38.0 derece sicaklik ve 6.0 m/s ruzgar hizi, meteorolojik olarak kritik bir kombinasyona sahiptir. RAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n\nYakitlar icin, 0.05 NDVI degeri bitki ortusunun seyrek oldugunu gostermektedir. 0.05 NDVI degeri, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Bu deger, yangin riski degerlendirmesinde orta derecede hassas kabul edilir. NDWI degeri -0.3, bitki ortusunun ciddi kurakligini gostermektedir.\n\nBu sayisal verilere dayanarak, alanin mevcut orman yangini riski C"
+    },
+    {
+        "id": 992,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 850.0,
+                "Egim": 25.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 33.0,
+                "Ruzgar_Hizi": 4.5
+            },
+            "Yakitlar": {
+                "NDVI": 0.6,
+                "NDWI": -0.15
+            }
+        },
+        "RAG_Parcalari": [
+            "M02",
+            "M03",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.524,
+            0.52,
+            0.497
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 850.0 metre rakimda ve %25.0 gibi oldukca dik bir egime sahip topografyada bulunmaktadir. 33.0 derece yuksek sicaklik ve 4.5 m/s siddetli ruzgar hizi, baca etkisi yaratarak yanginin yayilma hizini dramatik sekilde artiracaktir. 0.6 NDVI ve -0.15 NDWI degerleri bitki ortusundeki orta yogunlukta oldugunu ve su stresini kanitlamaktadir. Meteorolojik bilgiler ışığında, RAG'dan alıntı yapılan \"30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir\" bilgisi, bu parametrelerin bir araya gelmesi ile yangin riskini arttırmaktadır. Tum bu parametreler bir arada degerlendirildiginde, bolgede YUKSEK RISK seviyesinde orman yangini tehlikesi bulunmaktadir."
+    },
+    {
+        "id": 993,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1200.0,
+                "Egim": 5.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 18.0,
+                "Ruzgar_Hizi": 1.2
+            },
+            "Yakitlar": {
+                "NDVI": 0.7,
+                "NDWI": 0.25
+            }
+        },
+        "RAG_Parcalari": [
+            "M02",
+            "M03",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.523,
+            0.506,
+            0.492
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 1200.0 metre rakimda ve %5.0 gibi orta seviye egimde konumlanmistir. 18.0 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 1.2 m/s ruzgar hizi kritik esigi asmamaktadir. 0.7 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.25 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu bolgede mevcut degildir. Ruzgar hizi 1.2 m/s'nin altinda kaldigi icin, yangin yayilma hizi dogrudan artirilmemis ve kontrol edilebilir bir seviyede kalmistir. Bu nedenle, bolgede COK YUKSEK RISK seviyesi bulunmamaktadir."
+    }
+]

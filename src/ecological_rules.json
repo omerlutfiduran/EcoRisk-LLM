@@ -1,0 +1,34 @@
+{
+    "kurallar": [
+        {
+            "id": "K1_Yakitsiz_Alan",
+            "kosul": "NDVI < 0.15",
+            "kural_metni": "NDVI degerinin 0.15'in altinda olmasi, alanda yanici orman dokusu bulunmadigini (ciplak toprak, kayalik veya yerlesim yeri oldugunu) gosterir. Bu yuzden meteorolojik sartlar ne kadar kotu olursa olsun primer orman yangini baslama riski ekolojik olarak dusuktur."
+        },
+        {
+            "id": "K2_Kuru_Yakit_Birikimi",
+            "kosul": "NDVI >= 0.15 and NDWI < 0.0",
+            "kural_metni": "Alanda yanici bitki ortusu mevcuttur (NDVI > 0.15) ve ayni zamanda su indeksi negatiftir (NDWI < 0). Bu durum, bitki ortusunun canli degil, kurumaya yuz tutmus potansiyel bir yakit (olmus ortu) oldugunu kesinlestirerek yangina hassasiyeti artirir."
+        },
+        {
+            "id": "K3_Baca_Etkisi_Yanilmasi",
+            "kosul": "Ruzgar_Hizi > 2.0 and Egim > 15.0",
+            "kural_metni": "Siddetli ruzgar ve dik egim (%15 ustu) birlesmistir. Bu iki topografik ve meteorolojik carpanin bir araya gelmesi 'baca etkisi (chimney effect)' yaratir; olasi bir alevin isisi konveksiyonla yokus yukari tasinacagi icin yanginin yayilma hizi dramatik sekilde artacaktir."
+        },
+        {
+            "id": "K4_Fon_Ruzgari_Etkisi",
+            "kosul": "Sicaklik > 30.0 and Ruzgar_Hizi > 2.5",
+            "kural_metni": "30 derecenin uzerindeki asiri sicaklik ve saniyede 2.5 metreyi asan ruzgarin birlesmesi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu durum, ince yanici maddelerin tutusma esigini kritik seviyede dusurmektedir."
+        },
+        {
+            "id": "K5_Kizilcam_ve_Insan_Zonu",
+            "kosul": "Yukseklik < 400.0 and Sicaklik > 25.0",
+            "kural_metni": "Rakimin 400 metrenin altinda olmasi ve sicakligin 25 derecenin ustunde seyretmesi, Antalya gibi Akdeniz ekosistemlerinde kizilcam (Pinus brutia) ormanlarinin en yogun oldugu ve insan etkilesimi (antropojenik) kaynakli atesleme riskinin en yuksek oldugu tehlike zonunda yer alindigini gosterir."
+        },
+        {
+            "id": "K6_Stabil_ve_Guvenli_Ortam",
+            "kosul": "NDWI > 0.1 and Sicaklik < 22.0",
+            "kural_metni": "Pozitif su indeksi (NDWI > 0.1) ve 22 derecenin altindaki sicaklik, vejetasyonun nemli oldugunu ve meteorolojik olarak tutusma riskini artiracak bir isil gerilim bulunmadigini kanitlar."
+        }
+    ]
+}

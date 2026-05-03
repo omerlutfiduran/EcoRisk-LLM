@@ -1,0 +1,602 @@
+[
+    {
+        "id": 4858,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1458.0,
+                "Egim": 8.14
+            },
+            "Meteoroloji": {
+                "Sicaklik": 19.3,
+                "Ruzgar_Hizi": 0.86
+            },
+            "Yakitlar": {
+                "NDVI": 0.38,
+                "NDWI": -0.0
+            }
+        },
+        "RAG_Parcalari": [
+            "V02",
+            "M02",
+            "M03"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.494,
+            0.481,
+            0.479
+        ],
+        "Kullanilan_RAG_Metni": "- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.",
+        "Model_Ciktisi": "Bolge, 1458.0 metre rakimda ve %8.14 gibi orta seviye egimde konumlanmistir. 19.3 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.86 m/s ruzgar hizi kritik esigi asmamaktadir. 0.38 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, -0.0 NDWI degeri ise su stresinin olmadigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir."
+    },
+    {
+        "id": 3910,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 83.0,
+                "Egim": 1.63
+            },
+            "Meteoroloji": {
+                "Sicaklik": 27.5,
+                "Ruzgar_Hizi": 0.36
+            },
+            "Yakitlar": {
+                "NDVI": 0.49,
+                "NDWI": 0.07
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.539,
+            0.535,
+            0.478
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 83.0 metre rakimda ve %1.63 gibi dusuk bir egimde yer almaktadir. 27.5 derece sicaklik ve 0.36 m/s ruzgar hizi meteorolojik olarak stabil bir ortam sunarken, 0.49 NDVI ve 0.07 NDWI degerleri bitki ortusunun orta yogunlukta ve nemli oldugunu gostermektedir. Bu sayisal verilere dayanarak, alanin mevcut orman yangini riski ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bu bolgede mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir, ancak bu da bu bolgede mevcut deg"
+    },
+    {
+        "id": 4460,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 280.0,
+                "Egim": 9.27
+            },
+            "Meteoroloji": {
+                "Sicaklik": 25.66,
+                "Ruzgar_Hizi": 0.07
+            },
+            "Yakitlar": {
+                "NDVI": 0.52,
+                "NDWI": 0.12
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M01",
+            "M02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.529,
+            0.478,
+            0.475
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.",
+        "Model_Ciktisi": "Bolge, 280.0 metre rakimda ve %9.27 gibi orta seviye egimde konumlanmistir. 25.66 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.07 m/s ruzgar hizi kritik esigi asmamaktadir. 0.52 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.12 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu veride mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi da bu veride mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi da bu veride mevcut degildir. Bu nedenle, bolgede COK YUKSEK RISK seviyesinde orman yangini tehlikesi bulunmamaktadir"
+    },
+    {
+        "id": 3957,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 895.0,
+                "Egim": 0.91
+            },
+            "Meteoroloji": {
+                "Sicaklik": 28.15,
+                "Ruzgar_Hizi": 1.14
+            },
+            "Yakitlar": {
+                "NDVI": 0.61,
+                "NDWI": 0.18
+            }
+        },
+        "RAG_Parcalari": [
+            "M02",
+            "M03",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.504,
+            0.5,
+            0.475
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 895.0 metre rakimda ve %0.91 gibi hafif bir egimde yer almaktadir. 28.15 derece sicaklik ve 1.14 m/s ruzgar hizi, stabil bir meteorolojik ortam sunarken, 0.61 NDVI ve 0.18 NDWI degerleri bitki ortusunun orta yogunlukta oldugunu gostermektedir. Bu sayisal verilere dayanarak, alanin mevcut orman yangini riski ORTA RISK seviyesindedir."
+    },
+    {
+        "id": 2791,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1498.0,
+                "Egim": 8.51
+            },
+            "Meteoroloji": {
+                "Sicaklik": 23.6,
+                "Ruzgar_Hizi": 0.69
+            },
+            "Yakitlar": {
+                "NDVI": 0.46,
+                "NDWI": -0.03
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "V02",
+            "M02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.519,
+            0.484,
+            0.481
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.",
+        "Model_Ciktisi": "Bolge, 1498.0 metre rakimda ve %8.51 gibi orta seviye egimde konumlanmistir. 23.6 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.69 m/s ruzgar hizi kritik esigi asmamaktadir. 0.46 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, -0.03 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bu bolgede mevcut degildir. Bu nedenle, bolge ORTA RISK seviyesindedir.\n\nRISK SEVIYESI: ORTA RISK"
+    },
+    {
+        "id": 580,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 85.0,
+                "Egim": 0.05
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.49,
+                "Ruzgar_Hizi": 2.61
+            },
+            "Yakitlar": {
+                "NDVI": 0.54,
+                "NDWI": 0.15
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.557,
+            0.542,
+            0.505
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 85.0 metre rakimda ve %0.05 gibi hafif bir egimde yer almaktadir. 29.49 derece sicaklik ve 2.61 m/s ruzgar hizi, meteorolojik olarak stabil bir ortam sunarken, 0.54 NDVI ve 0.15 NDWI degerleri bitki ortusunun nemli ve canli oldugunu gostermektedir. EKOLOJIK BILGI BANKASI (RAG) bilgilerine gore, 30 derecenin uzerindeki sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir. Ancak, mevcut kosullar bu kombinasyonun tam olarak olusmadigini gostermektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir."
+    },
+    {
+        "id": 3598,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 374.0,
+                "Egim": 1.02
+            },
+            "Meteoroloji": {
+                "Sicaklik": 24.39,
+                "Ruzgar_Hizi": 0.17
+            },
+            "Yakitlar": {
+                "NDVI": 0.44,
+                "NDWI": 0.02
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.536,
+            0.499,
+            0.481
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 374.0 metre rakimda ve %1.02 gibi hafif bir egimde yer almaktadir. 24.39 derece sicaklik ve 0.17 m/s ruzgar hizi meteorolojik olarak stabil bir ortam sunarken, 0.44 NDVI ve 0.02 NDWI degerleri bitki ortusunun orta yogunlukta ve nemli oldugunu gostermektedir. Bu sayisal verilere dayanarak, alanin mevcut orman yangini riski ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bu bolgede mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir, ancak bu da bu bolgede mevcut degild"
+    },
+    {
+        "id": 1284,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 23.0,
+                "Egim": 0.37
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.11,
+                "Ruzgar_Hizi": 0.2
+            },
+            "Yakitlar": {
+                "NDVI": 0.39,
+                "NDWI": 0.09
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.488,
+            0.462,
+            0.45
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 23.0 metre rakimda ve %0.37 gibi dusuk bir egimde yer almaktadir. 29.11 derece sicaklik ve 0.2 m/s ruzgar hizi meteorolojik olarak stabil bir ortam sunarken, 0.39 NDVI ve 0.09 NDWI degerleri bitki ortusunun orta yogunlukta ve nemli oldugunu gostermektedir. Ancak, 29.11 derece sicaklik 30 derecenin uzerindedir ve bu da asiri sicaklik ile 2.5 m/s'nin uzerine cikmis ruzgarin birlesimi olusturmaktadir. Bu kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir. Bu parametreler bir arada degerlendirildiginde, bolgede YUKSEK RISK seviyesinde orman yangini tehlikesi bulunmaktadir.\n\nRISK SEVIYESI: YUKSEK"
+    },
+    {
+        "id": 634,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1290.0,
+                "Egim": 4.5
+            },
+            "Meteoroloji": {
+                "Sicaklik": 25.0,
+                "Ruzgar_Hizi": 0.65
+            },
+            "Yakitlar": {
+                "NDVI": 0.55,
+                "NDWI": 0.15
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.535,
+            0.519,
+            0.49
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 1290.0 metre rakimda ve %4.5 gibi orta seviye egimde konumlanmistir. 25.0 derece sicaklik, 0.65 m/s ruzgar hizi ve 0.55 NDVI degerleri stabil bir ortam sunarken, 0.15 NDWI degeri bitki ortusunun nemli oldugunu gostermektedir. Ancak, Meteoroloji bölümünde belirtilen bilimsel gercekleri referans aldigimizda, 30 derecenin uzerindeki sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir. Ancak, bu kosullar mevcut degildir. Ruzgar hizi 2.5 m/s'nin uzerine cikmiyor ve sicaklik 30 derecenin uzerine cikmiyor. Bu nedenle, bolgede ORTA RISK seviyesi bulunmaktadir.\n\nRISK SEVIYESI: ORTA RISK"
+    },
+    {
+        "id": 121,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 325.0,
+                "Egim": 1.94
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.79,
+                "Ruzgar_Hizi": 0.44
+            },
+            "Yakitlar": {
+                "NDVI": 0.63,
+                "NDWI": 0.22
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.546,
+            0.504,
+            0.473
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 325.0 metre rakimda ve %1.94 gibi dusuk bir egimde yer almaktadir. 29.79 derece sicaklik ve 0.44 m/s ruzgar hizi meteorolojik olarak stabil bir ortam sunarken, 0.63 NDVI ve 0.22 NDWI degerleri bitki ortusunun nemli ve canli oldugunu gostermektedir. EKOLOJIK BILGI BANKASI (RAG) bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak, bu kosullar bolgede mevcut degildir. 0.44 m/s ruzgar hizi 2.5 m/s'nin uzerine cikmiyor ve sicaklik 30 derecenin uzerine cikmiyor. Bu nedenle, bolgede ORTA RISK seviyesi mevcuttur."
+    },
+    {
+        "id": 201,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 508.0,
+                "Egim": 9.96
+            },
+            "Meteoroloji": {
+                "Sicaklik": 23.03,
+                "Ruzgar_Hizi": 0.7
+            },
+            "Yakitlar": {
+                "NDVI": 0.41,
+                "NDWI": 0.01
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.495,
+            0.493,
+            0.491
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 508.0 metre rakimda ve %9.96 gibi orta seviye egimde konumlanmistir. 23.03 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.7 m/s ruzgar hizi kritik esigi asmamaktadir. 0.41 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.01 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bu bolgede mevcut degildir. Bu nedenle, bolgede COK YUKSEK RISK seviyesinde orman yangini tehlikesi bulunmamaktadir."
+    },
+    {
+        "id": 1455,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1315.0,
+                "Egim": 4.51
+            },
+            "Meteoroloji": {
+                "Sicaklik": 25.31,
+                "Ruzgar_Hizi": 1.13
+            },
+            "Yakitlar": {
+                "NDVI": 0.63,
+                "NDWI": 0.2
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.53,
+            0.522,
+            0.472
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 1315.0 metre rakimda ve %4.51 gibi orta seviye egimde konumlanmistir. 25.31 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 1.13 m/s ruzgar hizi kritik esigi asmamaktadir. 0.63 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.2 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar bu veride mevcut degildir. RAG bilgilerine gore, ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu kosullar da bu veride mevcut degildir. \n\nSon cümlede RISK SEVIYESINI (DUSUK/ORTA/YUKSEK/COK YUKSE"
+    },
+    {
+        "id": 517,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 6.0,
+                "Egim": 0.07
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.73,
+                "Ruzgar_Hizi": 1.78
+            },
+            "Yakitlar": {
+                "NDVI": 0.5,
+                "NDWI": 0.16
+            }
+        },
+        "RAG_Parcalari": [
+            "M02",
+            "M03",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.544,
+            0.526,
+            0.486
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 6.0 metre rakimda ve %0.07 gibi dusuk bir egimde yer almaktadir. 29.73 derece sicaklik ve 1.78 m/s ruzgar hizi, meteorolojik olarak stabil bir ortam sunarken, 0.5 NDVI ve 0.16 NDWI degerleri bitki ortusunun orta yogunlukta oldugunu gostermektedir. Bu sayisal verilere dayanarak, alanin mevcut orman yangini riski ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar, bolgede mevcut degildir. Ruzgar hizi 1.78 m/s'dir, 2.5 m/s'nin uzerine cikmiyor. Bu nedenle, bolgede COK YUKSEK RISK seviyesi bulunmamaktadir."
+    },
+    {
+        "id": 1460,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 2066.0,
+                "Egim": 19.99
+            },
+            "Meteoroloji": {
+                "Sicaklik": 24.1,
+                "Ruzgar_Hizi": 1.08
+            },
+            "Yakitlar": {
+                "NDVI": 0.28,
+                "NDWI": -0.1
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "V02",
+            "M02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.457,
+            0.435,
+            0.426
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.",
+        "Model_Ciktisi": "Bolge, 2066.0 metre rakimda ve %19.99 gibi orta seviye egimde konumlanmistir. 24.1 derece sicaklik, yangin mevsimi ortalamasindan biraz dusuk seyretmekte, 1.08 m/s ruzgar hizi ise kritik esigi asmamaktadir. 0.28 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, -0.1 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir. Bu riski arttiran faktorlar, meteorolojik kombinasyonun (30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi) olmadigi ve ruzgar hizinin kritik esigi asmadigi icin, bolgede COK YUKSEK RISK seviyesi bulunmamaktadir."
+    },
+    {
+        "id": 3983,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 804.0,
+                "Egim": 13.79
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.17,
+                "Ruzgar_Hizi": 0.46
+            },
+            "Yakitlar": {
+                "NDVI": 0.61,
+                "NDWI": 0.18
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.541,
+            0.51,
+            0.5
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 804.0 metre rakimda ve %13.79 gibi orta seviye egimde konumlanmistir. 29.17 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.46 m/s ruzgar hizi kritik esigi asmamaktadir. 0.61 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.18 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Meteorolojik olarak, 30 derecenin uzerindeki sicaklik ile 2.5 m/s'nin uzerine cikmayan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak, mevcut kosullar bu kombinasyonu olusturmamaktadir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRISK SEVIYESI: ORTA RISK"
+    },
+    {
+        "id": 595,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1584.0,
+                "Egim": 7.21
+            },
+            "Meteoroloji": {
+                "Sicaklik": 23.67,
+                "Ruzgar_Hizi": 0.43
+            },
+            "Yakitlar": {
+                "NDVI": 0.43,
+                "NDWI": 0.07
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.563,
+            0.516,
+            0.497
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 1584.0 metre rakimda ve %7.21 gibi orta seviye egimde konumlanmistir. 23.67 derece sicaklik, yangin mevsimi ortalamasina yakindir, ancak 0.43 m/s ruzgar hizi kritik esigi asmamaktadir. 0.43 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.07 NDWI degeri vejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kombinasyon, bu veride mevcut degildir. RAG bilgilerine gore, ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bu veride mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal,"
+    },
+    {
+        "id": 1178,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 718.0,
+                "Egim": 9.59
+            },
+            "Meteoroloji": {
+                "Sicaklik": 28.33,
+                "Ruzgar_Hizi": 1.41
+            },
+            "Yakitlar": {
+                "NDVI": 0.47,
+                "NDWI": 0.05
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "V02",
+            "M02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.509,
+            0.465,
+            0.462
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.",
+        "Model_Ciktisi": "Bolge, 718.0 metre rakimda ve %9.59 gibi orta seviye egimde konumlanmistir. 28.33 derece sicaklik yangin mevsimi ortalamasina yakin seyretmekte, 1.41 m/s ruzgar hizi ise henuz kritik esigi asmamaktadir. 0.47 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.05 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir. Bu riski arttiran faktorlar, meteorolojik kombinasyonun kurutucu etkisi ve bitki ortusunun su stresine girmesi olarak belirlenmistir."
+    },
+    {
+        "id": 3466,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 506.0,
+                "Egim": 7.08
+            },
+            "Meteoroloji": {
+                "Sicaklik": 26.0,
+                "Ruzgar_Hizi": 0.26
+            },
+            "Yakitlar": {
+                "NDVI": 0.66,
+                "NDWI": 0.19
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "M01"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.512,
+            0.492,
+            0.465
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.",
+        "Model_Ciktisi": "Bolge, 506.0 metre rakimda ve %7.08 gibi orta seviye egimde konumlanmistir. 26.0 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.26 m/s ruzgar hizi kritik esigi asmamaktadir. 0.66 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.19 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kombinasyon, bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bolgede mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin nem icerigini hizla dusurur ve tutusma"
+    },
+    {
+        "id": 210,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 2216.0,
+                "Egim": 6.13
+            },
+            "Meteoroloji": {
+                "Sicaklik": 22.58,
+                "Ruzgar_Hizi": 0.36
+            },
+            "Yakitlar": {
+                "NDVI": 0.26,
+                "NDWI": -0.06
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M02",
+            "V02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.529,
+            0.491,
+            0.475
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.\n- [Vejetasyon] NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir.",
+        "Model_Ciktisi": "Bolge, 2216.0 metre rakimda ve %6.13 gibi orta seviye egimde konumlanmistir. 22.58 derece sicaklik, yangin mevsimi ortalamasindan biraz dusuk seyretmekte, 0.36 m/s ruzgar hizi ise kritik esigi asmamaktadir. 0.26 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, -0.06 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar, bolgede mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir, ancak bu da bolgede mevcut degildir. NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune"
+    },
+    {
+        "id": 724,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 314.0,
+                "Egim": 3.55
+            },
+            "Meteoroloji": {
+                "Sicaklik": 29.79,
+                "Ruzgar_Hizi": 0.44
+            },
+            "Yakitlar": {
+                "NDVI": 0.65,
+                "NDWI": 0.19
+            }
+        },
+        "RAG_Parcalari": [
+            "M03",
+            "M01",
+            "M02"
+        ],
+        "RAG_Benzerlik_Skorlari": [
+            0.56,
+            0.506,
+            0.506
+        ],
+        "Kullanilan_RAG_Metni": "- [Meteoroloji] 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir.\n- [Meteoroloji] Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir.\n- [Meteoroloji] Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir.",
+        "Model_Ciktisi": "Bolge, 314.0 metre rakimda ve %3.55 gibi orta seviye egimde konumlanmistir. 29.79 derece sicaklik yangin mevsimi ortalamasina yakindir, ancak 0.44 m/s ruzgar hizi kritik esigi asmamaktadir. 0.65 NDVI bitki ortusunun orta yogunlukta oldugunu gosterirken, 0.19 NDWI degeri dejetasyonun su stresine girmeye basladigina isaret etmektedir. Mevcut kosullar degerlendirildiginde bolge ORTA RISK seviyesindedir.\n\nRAG bilgilerine gore, 30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Ancak bu kosullar mevcut degildir. Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. Ancak bu da mevcut degildir. Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dog"
+    }
+]

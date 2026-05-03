@@ -1,0 +1,59 @@
+[
+    {
+        "id": 991,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 150.0,
+                "Egim": 20.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 38.0,
+                "Ruzgar_Hizi": 6.0
+            },
+            "Yakitlar": {
+                "NDVI": 0.05,
+                "NDWI": -0.30
+            }
+        },
+        "Senaryo_Notu": "K1 TESTI: Ruzgar firtina seklinde, inanilmaz sicak, egim cok dik ama NDVI 0.05 (Yani burasi tamamen beton/asfalt veya kum). Sistemin 'risk dusuk, cunku yanacak orman yok' demesini bekliyoruz."
+    },
+    {
+        "id": 992,
+        "Gercek_Yangin_Durumu": 1,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 850.0,
+                "Egim": 25.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 33.0,
+                "Ruzgar_Hizi": 4.5
+            },
+            "Yakitlar": {
+                "NDVI": 0.60,
+                "NDWI": -0.15
+            }
+        },
+        "Senaryo_Notu": "K3 BACA ETKISI TESTI: Yukseklik 850m (K5 kurali gecerli degil). Ama egim cok dik (%25) ve ruzgar cok hizli. NDVI yuksek (bolca orman var) ve NDWI negatif (orman kupkuru). Sistemin K3 ve K4 kurallarini cekip 'EKSTREM/COK YUKSEK RISK' demesini bekliyoruz."
+    },
+    {
+        "id": 993,
+        "Gercek_Yangin_Durumu": 0,
+        "Girdi_Verisi": {
+            "Cografya": {
+                "Yukseklik": 1200.0,
+                "Egim": 5.0
+            },
+            "Meteoroloji": {
+                "Sicaklik": 18.0,
+                "Ruzgar_Hizi": 1.2
+            },
+            "Yakitlar": {
+                "NDVI": 0.70,
+                "NDWI": 0.25
+            }
+        },
+        "Senaryo_Notu": "K6 STABIL ORTAM TESTI: Hava serin, ruzgar yavas, egim duz. NDVI cok yuksek (yemyesil) ve NDWI pozitif (toprak ve yapraklar islak). Sistemin 'DUSUK RISK' demesini bekliyoruz."
+    }
+]

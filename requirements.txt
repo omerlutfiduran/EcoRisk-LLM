@@ -1,0 +1,10 @@
+pandas
+transformers
+torch
+evaluate
+rouge_score
+accelerate
+groq
+sentence-transformers
+faiss-cpu
+numpy

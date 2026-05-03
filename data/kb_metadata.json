@@ -1,0 +1,158 @@
+[
+  {
+    "idx": 0,
+    "id": "V01",
+    "kategori": "Vejetasyon",
+    "icerik": "NDVI (Normalized Difference Vegetation Index) degerinin 0.15'in altinda olmasi, alanda yanici orman dokusu bulunmadigini gosterir. Bu tur alanlar genellikle ciplak toprak, kayalik, kumul veya yogun yerlesim yeridir. Meteorolojik kosullar ne kadar olumsuz olursa olsun, primer orman yangini baslama riski ekolojik olarak dusuktur cunku tutusmaya uygun biyokutle mevcut degildir."
+  },
+  {
+    "idx": 1,
+    "id": "V02",
+    "kategori": "Vejetasyon",
+    "icerik": "NDVI degeri 0.3 ile 0.5 arasinda olan bolgeler orta yogunlukta bitki ortusune sahiptir. Bu deger araligindan, calilk, maki veya seyrek orman dokusunun varligini anliyoruz. Yangin riski degerlendirmesinde bu alanlar, NDWI ve meteorolojik kosullara bagli olarak orta derecede hassas kabul edilir."
+  },
+  {
+    "idx": 2,
+    "id": "V03",
+    "kategori": "Vejetasyon",
+    "icerik": "NDVI degeri 0.5'in uzerinde olan bolgeler yogun ve canli vejetasyona sahiptir. Akdeniz ekosistemlerinde bu genellikle kizilcam (Pinus brutia), sedir veya maki formasyonlarina isaret eder. Bu alanlarda yanici biyokutle miktari yuksektir; eger su stresi varsa (NDWI negatif) yangin riski dramatik sekilde artar."
+  },
+  {
+    "idx": 3,
+    "id": "V04",
+    "kategori": "Vejetasyon",
+    "icerik": "NDWI (Normalized Difference Water Index) degerinin negatif olmasi, bitki dokusundaki su iceriginin dusuk oldugunu gosterir. Bu durum vejetasyonun kurumaya yuz tuttugunu ve potansiyel bir yakit kaynagina donustugunu kanitlar. Ozellikle NDVI degeri yuksek (yogun bitki ortusu) olan alanlarda NDWI'nin negatif olmasi, genis bir kuru yakit birikimi anlamina gelir."
+  },
+  {
+    "idx": 4,
+    "id": "V05",
+    "kategori": "Vejetasyon",
+    "icerik": "NDWI degeri 0.1'in uzerinde olan bolgeler yeterli toprak nemini ve bitki su icerigini gosterir. Bu kosullarda vejetasyon canli ve nemlidir; tutusma olasiligi dusuktur. Pozitif NDWI, dogal bir yangin bariyeri islevi gorur ve yanginin yayilmasini yavaslatir."
+  },
+  {
+    "idx": 5,
+    "id": "V06",
+    "kategori": "Vejetasyon",
+    "icerik": "Kizilcam (Pinus brutia) Akdeniz bolgesinin baskin agac turudur ve ozellikle 0-1200 metre rakimlarda yogunlasir. Kizilcam igneleri yuksek recine icerigi nedeniyle son derece yanici materyal olusturur. Yaz aylarinda dokulen iğne yapraklari olu ortu tabakasi olusturarak zemin yanginlarinin baslangic noktasi olabilir."
+  },
+  {
+    "idx": 6,
+    "id": "V07",
+    "kategori": "Vejetasyon",
+    "icerik": "Akdeniz maki vejetasyonu (kermes mesesi, mersin, defne, laden) yuksek ucucu yag icerigi nedeniyle yangin sirasinda patlayici yanma davranisi sergiler. Maki formasyonlari ozellikle 0-600 metre rakimda, guneye bakan yamaclarda yogunlasir ve yaz kurakligi doneminde asiri tutusamaya yatkin hale gelir."
+  },
+  {
+    "idx": 7,
+    "id": "M01",
+    "kategori": "Meteoroloji",
+    "icerik": "Hava sicakliginin 30 derecenin uzerine cikmasi, ince yanici maddelerin (yaprak, dal, igne) nem icerigini hizla dusurur ve tutusma esigini kritik seviyede azaltir. 35 derecenin uzerindeki sicakliklarda kendiliğinden tutusma riski bile ortaya cikabilir. Akdeniz bolgesinde yaz aylarinda 35-42 derece arasi sicakliklar siklikla kaydedilmektedir."
+  },
+  {
+    "idx": 8,
+    "id": "M02",
+    "kategori": "Meteoroloji",
+    "icerik": "Ruzgar hizinin 2.5 m/s'nin uzerine cikmasi yangin yayilma hizini dogrudan artirir. Ruzgar, aleve oksijen saglarken ayni zamanda sicak partikulleri ileri tasiarak noktasal ateslemeler (spotting) olusturur. 5 m/s uzerindeki ruzgarlarda yangin kontrolu neredeyse imkansiz hale gelir."
+  },
+  {
+    "idx": 9,
+    "id": "M03",
+    "kategori": "Meteoroloji",
+    "icerik": "30 derecenin uzerindeki asiri sicaklik ile 2.5 m/s'yi asan ruzgarin birlesimi, Akdeniz havzasinda fon ruzgari benzeri bir kurutucu etki yaratir. Bu meteorolojik kombinasyon, havadaki bagil nemi hizla dusurerek yakit nemini kritik seviyelere cekmekte ve buyuk yanginlarin baslamasi icin ideal kosullari olusturmaktadir."
+  },
+  {
+    "idx": 10,
+    "id": "M04",
+    "kategori": "Meteoroloji",
+    "icerik": "22 derecenin altindaki sicakliklarda ve dusuk ruzgar kosullarinda atmosferik istikrar saglanir. Bu ortamda bitki ortusundeki nem kaybi yavastir ve tutusma olasiligi minimuma iner. Ozellikle ilkbahar ve sonbahar aylarinda bu kosullar siklikla gorulur ve yangin riski oldukca dusuktur."
+  },
+  {
+    "idx": 11,
+    "id": "M05",
+    "kategori": "Meteoroloji",
+    "icerik": "Akdeniz ikliminde yangin mevsimi Haziran-Eylul arasinda yogunlasir. Bu donemde uzun sureli yagissizlik, yuksek sicaklik ve dusuk bagil nem bir arada gorulur. Temmuz ve Agustos aylari en riskli donemdir; bu aylarda Antalya bolgesinde ortalama sicaklik 28-35 derece arasinda seyretmektedir."
+  },
+  {
+    "idx": 12,
+    "id": "M06",
+    "kategori": "Meteoroloji",
+    "icerik": "Bagil nemin yuzde 30'un altina dusmesi yangin riskini onemli olcude artirir. Dusuk bagil nem, hem canli hem olu yakit materyalinin kurumasini hizlandirir. Sicak ve kuru kosullarin ayni anda yaşanmasi, ozellikle ogleden sonra saatlerinde ani yangin baslangic riskini yukseltir."
+  },
+  {
+    "idx": 13,
+    "id": "T01",
+    "kategori": "Topografya",
+    "icerik": "Egim yuzde 15'in (yaklasik 8.5 derece) uzerinde oldugunda, yangin yayilma hizi duz araziye gore katlanarak artar. Dik yamaclarda alev cephesi egim boyunca yukari dogru ilerlerken, yukari taraftaki yakit on-isitma alir. Her 10 derecelik egim artisi yangin yayilma hizini yaklasik iki katina cikarir."
+  },
+  {
+    "idx": 14,
+    "id": "T02",
+    "kategori": "Topografya",
+    "icerik": "Siddetli ruzgar ve dik egimin birlesimi 'baca etkisi' (chimney effect) yaratir. Bu fenomende, egimli arazide yukselen sicak hava konvektif bir cekis olusturarak alevi yokus yukari hizla tasir. Baca etkisi alev yayilma hizini normal kosullarin 4-5 katina cikarabilir ve itfaiye ekiplerinin mudahalesini tehlikeli hale getirir."
+  },
+  {
+    "idx": 15,
+    "id": "T03",
+    "kategori": "Topografya",
+    "icerik": "Guneye bakan yamaclar Kuzey Yarikure'de daha fazla gunes isini alir, bu nedenle toprak ve vejetasyon daha hizli kurur. Akdeniz bolgesinde guney yamaclardaki evapotranspirasyon orani kuzey yamaclara gore yuzde 25-40 daha yuksektir. Bu durum yangin hassasiyetini artiran onemli bir topografik faktordur."
+  },
+  {
+    "idx": 16,
+    "id": "T04",
+    "kategori": "Topografya",
+    "icerik": "Vadi yapilari ruzgari kanalize ederek yerel ruzgar hizini artirabilir. Daralma etkisi (Venturi etkisi) ruzgar hizini 2-3 katina cikarabilir. Vadi tabanlari ayrica soğuk hava birikimi nedeniyle gece inversiyon tabakalari olusturarak duman dagılımini zorlaştırır."
+  },
+  {
+    "idx": 17,
+    "id": "T05",
+    "kategori": "Topografya",
+    "icerik": "Duz ve alcak egimli arazilerde (yuzde 5'in altinda) yangin yayilma hizi topografyadan bagimsiz olarak daha dusuktur. Bu alanlarda yangin davranisi esas olarak ruzgar ve yakit kosullarina baglidir. Egimin dusuk olmasi mudahale ekiplerinin erisimini de kolaylastirir."
+  },
+  {
+    "idx": 18,
+    "id": "R01",
+    "kategori": "Bolgesel",
+    "icerik": "Antalya ili Turkiye'nin en fazla orman yangini gorulen illerinden biridir. Ilin yuzde 56'si ormanlarla kaplidir ve yillik ortalama 50-80 yangin olayi kaydedilmektedir. Ozellikle Kemer, Manavgat, Akseki ve Kas ilceleri yangina en hassas bolgelerdir."
+  },
+  {
+    "idx": 19,
+    "id": "R02",
+    "kategori": "Bolgesel",
+    "icerik": "Rakimin 400 metrenin altinda olmasi ve sicakligin 25 derecenin ustunde seyretmesi, Antalya bolgesinde kizilcam ormanlarinin en yogun oldugu ve insan etkilesimi kaynakli (antropojenik) atesleme riskinin en yuksek oldugu zonu olusturur. Turkiye'deki orman yanginlarinin yaklasik yuzde 90'i insan kaynaklidir."
+  },
+  {
+    "idx": 20,
+    "id": "R03",
+    "kategori": "Bolgesel",
+    "icerik": "2021 Manavgat yangini Turkiye tarihinin en buyuk orman yanginlarindan biridir. 60.000 hektardan fazla alan yandi. Yanginin bu kadar buyumesinde yuksek sicaklik (42 derece), siddetli ruzgar (60 km/h) ve asiri kuraklik birlikte etkili olmustur. Bu olay bolgedeki yangin risk degerledirmesinin onemini kanitlamaktadir."
+  },
+  {
+    "idx": 21,
+    "id": "R04",
+    "kategori": "Bolgesel",
+    "icerik": "Antalya'nin kiyi seridinde (0-200 metre rakım) turizm tesisleri ve yerlesim alanlari orman alanlariyla ic ice gecmistir. Bu orman-kentsel arayuz (Wildland-Urban Interface, WUI) bolgeleri, yanginlarin can ve mal kayiplarina yol acma riskini onemli olcude artirmaktadir."
+  },
+  {
+    "idx": 22,
+    "id": "E01",
+    "kategori": "Etkilesim",
+    "icerik": "Yuksek NDVI (yogun orman) ve negatif NDWI (su stresi) kombinasyonu en tehlikeli yakit kosulunu olusturur. Yogun ancak kurumus vejetasyon, buyuk miktarda yanici materyal anlamina gelir. Bu durum ozellikle uzun kuraklik donemlerinin sonunda, Temmuz-Agustos aylarinda en yuksek seviyeye ulasir."
+  },
+  {
+    "idx": 23,
+    "id": "E02",
+    "kategori": "Etkilesim",
+    "icerik": "Kuru yakit birikimi, siddetli ruzgar ve dik egim uclusu bir araya geldiginde felaket boyutunda yanginlar olusabilir. Bu uc faktorun esik degerlerinin ayni anda asilmasi durumunda yangin davranisi olagan kontrol yontemlerinin otesine gecer ve 'mega yangin' olusma riski ortaya cikar."
+  },
+  {
+    "idx": 24,
+    "id": "E03",
+    "kategori": "Etkilesim",
+    "icerik": "Nemli ve canli vejetasyon (pozitif NDWI, yuksek NDVI) dogal yangin bariyeri gorevi gorur. Ormandaki nemli alanlar ve su kaynaklari yakinindaki vejetasyon kusagi, yanginin yayilmasini yavaslatir veya durdurur. Bu nedenle NDWI pozitif olan bolgeler yangin riskini onemli olcude azaltir."
+  },
+  {
+    "idx": 25,
+    "id": "E04",
+    "kategori": "Etkilesim",
+    "icerik": "Yuksek rakimli bolgelerde (1000 metre ustu) sicaklik dogal olarak daha dusuktur ve vejetasyon yapisi degisir. Kizilcam yerini karaçam ve sedire birakir; bu turler nispeten daha dusuk recine icerigine sahiptir. Ancak kuresel isinmayla birlikte yuksek rakimlarda da yangin sikliginin arttigi gozlemlenmektedir."
+  }
+]
